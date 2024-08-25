@@ -1,0 +1,6 @@
+Gaussian smoothing is a widely used technique in medical image processing for enhancing image quality and reducing noise. It involves convolving the input image with a Gaussian kernel to produce a smoothed output image. 
+
+Blurs images and removes detail and noise
+Provides gentler smoothing and preserves edges better than mean filters
+Acts as a lowpass frequency filter that attenuates high frequencies more than low frequencies
+Has a frequency response that is itself a Gaussian shape, providing more control over the range of spatial frequencies removed
