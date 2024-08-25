@@ -1,0 +1,4 @@
+Histogram equalization is a method that improves the contrast of an image by redistributing the pixel intensity values. This process can significantly enhance the overall contrast of images, especially those that are poorly lit or have low contras.
+It applies a global contrast adjustment, which can lead to over-brightening or under-darkening specific areas of the image, resulting in loss of detail and clarity. So to overcome this limitation, CLAHE comes into the picture. 
+CLAHE addresses these limitations by performing histogram equalization on localized regions of the image, known as tiles. This method divides the image into smaller sections and equalizes the histogram of each tile independently. 
+
