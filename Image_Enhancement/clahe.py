@@ -1,4 +1,8 @@
-pip install numpy pandas opencv-python matplotlib
+# Adaptive Histogram equalisation computes several histograms, each corresponding to a distinct section of the image, and uses them to redistribute the luminance values of the image.
+# by limiting the amplification, we get CLAHE.
+# this method prevents over amplification of noise in honogenous regions
+
+!pip install numpy pandas opencv-python matplotlib
 
 import numpy as np
 import pandas as pd
