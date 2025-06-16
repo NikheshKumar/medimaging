@@ -1,6 +1,7 @@
-# Adaptive Histogram equalisation computes several histograms, each corresponding to a distinct section of the image, and uses them to redistribute the luminance values of the image.
-# by limiting the amplification, we get CLAHE.
-# this method prevents over amplification of noise in honogenous regions
+# Adaptive Histogram equalisation computes several histograms, each corresponding to a distinct section of the image, and uses them to redistribute the pixel intensity values.
+# By limiting the amplification, we get CLAHE, by performing histogram equalization on localized regions of the image, known as tiles. This method divides the image into smaller sections and equalizes the histogram of each tile independently. 
+# This method prevents over amplification of noise in honogenous regions.
+# This process can significantly enhance the overall contrast of images, especially those that are poorly lit or have low contras.
 
 !pip install numpy pandas opencv-python matplotlib
 
